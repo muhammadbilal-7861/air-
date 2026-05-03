@@ -1,0 +1,79 @@
+/* SkyWay brand overrides on top of Bootstrap 5 */
+:root {
+  --sw-primary: #0b3d91;
+  --sw-primary-dark: #07285e;
+  --sw-accent: #ffb703;
+  --bs-primary: #0b3d91;
+  --bs-primary-rgb: 11, 61, 145;
+}
+
+body {
+  background: #f5f8ff;
+  font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+}
+
+.navbar-brand-mark {
+  width: 32px; height: 32px;
+  background: var(--sw-accent);
+  border-radius: 50%;
+  display: inline-grid;
+  place-items: center;
+  color: var(--sw-primary-dark);
+  font-weight: 800;
+  margin-right: 8px;
+}
+
+.bg-sw-primary { background: var(--sw-primary) !important; }
+.btn-accent {
+  background: var(--sw-accent);
+  color: var(--sw-primary-dark);
+  font-weight: 600;
+  border: none;
+}
+.btn-accent:hover { background: #f0a900; color: var(--sw-primary-dark); }
+
+.hero {
+  background: linear-gradient(135deg, var(--sw-primary) 0%, var(--sw-primary-dark) 100%);
+  color: #fff;
+  padding: 4rem 1rem;
+  text-align: center;
+}
+.hero h1 { font-weight: 800; font-size: 2.5rem; }
+.hero p { opacity: .9; font-size: 1.1rem; max-width: 640px; margin: .5rem auto 0; }
+
+.stat-card {
+  background: linear-gradient(135deg, var(--sw-primary), var(--sw-primary-dark));
+  color: #fff;
+  border: none;
+}
+.stat-card .num { font-size: 2.25rem; font-weight: 800; line-height: 1; }
+.stat-card .lbl { opacity: .85; font-size: .9rem; }
+
+.section-card { box-shadow: 0 4px 14px rgba(11, 61, 145, 0.08); border: none; }
+.admin-section { border: 2px solid var(--sw-accent) !important; }
+
+.message-item {
+  background: #fafbff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 10px;
+}
+.message-item .meta { font-size: .8rem; color: #6b7280; margin-bottom: 6px; }
+.message-item .name { font-weight: 600; color: var(--sw-primary-dark); }
+
+.toast-mini {
+  position: fixed; bottom: 24px; right: 24px;
+  padding: 12px 18px; border-radius: 8px;
+  z-index: 2000;
+  background: #1a2238; color: #fff;
+  box-shadow: 0 8px 24px rgba(0,0,0,.2);
+  animation: slidein .25s ease-out;
+}
+.toast-mini.success { background: #16a34a; }
+.toast-mini.error   { background: #dc2626; }
+@keyframes slidein { from { transform: translateY(20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+
+@media (max-width: 576px) {
+  .hero h1 { font-size: 1.75rem; }
+}

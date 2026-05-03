@@ -1,0 +1,12 @@
+{
+  "name": "@workspace/flight-info",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "build": "echo 'no build step — pure static files'",
+    "serve": "node server.mjs",
+    "typecheck": "echo 'no typecheck'"
+  }
+}

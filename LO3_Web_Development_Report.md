@@ -1,8 +1,7 @@
-# Web Development: Design, Develop and Manage Website – LO3
+# Web Development: Design, Develop and Manage Website 
 
 ## Project Overview
 
-Client: TechHub
 Project: Multi-page airline information and booking portal
 Website brand: SkyWay Airlines
 
@@ -10,7 +9,7 @@ This report documents the design, implementation, justification, and evaluation 
 
 ---
 
-## 1. Design Document (P5)
+## 1. Design Document 
 
 ### 1.1 Client needs
 
@@ -99,7 +98,7 @@ Branding decisions:
 
 ---
 
-## 2. Website Implementation (P6)
+## 2. Website Implementation
 
 ### 2.1 Pages delivered
 
@@ -145,7 +144,7 @@ The project delivers 9 multipage website files with consistent layout and naviga
 
 ---
 
-## 3. Justification of Implementation (M4)
+## 3. Justification of Implementation
 
 ### 3.1 Justifying page and layout decisions
 
@@ -169,7 +168,7 @@ The project delivers 9 multipage website files with consistent layout and naviga
 
 ---
 
-## 4. Evaluation of Design & Development Process (D2)
+## 4. Evaluation of Design & Development Process
 
 ### 4.1 Alignment with the design document and client requirements
 
@@ -208,14 +207,4 @@ The project delivers 9 multipage website files with consistent layout and naviga
   - `about.html`
   - `contact.html`
 
-> Screenshots can be captured from the browser view of these pages and inserted into this report if required.
 
----
-
-## 6. References
-
-- Bootstrap v5.3 documentation. Available at: https://getbootstrap.com/docs/5.3/
-- Google Fonts: Inter. Available at: https://fonts.google.com/specimen/Inter
-- Firebase Web documentation. Available at: https://firebase.google.com/docs/web
-- W3C HTML5 specification. Available at: https://www.w3.org/TR/html52/
-- W3C Web Content Accessibility Guidelines (WCAG) 2.1. Available at: https://www.w3.org/TR/WCAG21/

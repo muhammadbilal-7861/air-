@@ -42,7 +42,7 @@ import {
 
 
 
-export const ADMIN_EMAIL = "javeriarajpoot69@gmail.com";
+export const ADMIN_EMAIL = "muhammadbilalbinasif@gmail.com";
 
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
